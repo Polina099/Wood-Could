@@ -1,0 +1,608 @@
+/*OVERALL SITE*/
+body, div {
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    width: 100%;
+}
+
+/*SMOOTH SCROLL HAMBURGER START*/
+.topnav {
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    background-color: #A69580;
+    color: white;
+    font-family: helvetica, sans-serif;
+}
+
+.topnav a {
+    display: inline-block;
+    text-align: center;
+    font-family: helvetica, sans-serif;
+    font-weight:400;
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    padding-top: 25px;
+    padding-bottom: 11px;
+    padding-right: 25px;
+    padding-left: 25px;
+}
+
+.topnav {
+    overflow: hidden;
+}
+.topnav a:hover {
+    /*background-color: #ddd;
+    color: #A69580;*/
+    font-family:helvetica, sans-serif;
+    color:#184031;
+} 
+
+#nav_bar .icon {
+  display: none;
+}
+/*SMOOTH SCROLL HAMBURGER FINISH*/
+
+/*NAVIGATION BAR*/
+
+#logo {
+    float:left;
+    position: relative;
+    margin-left:3%;
+    margin-top:-10px;
+}
+
+
+#nav_bar {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+
+/*BODY*/
+
+h2 {
+    margin: 0;
+    margin-left:5%;
+    padding: 0;
+    font-family: operetta-18, serif;
+    font-weight: 600;
+    font-style:normal;
+    font-size:25pt;
+    color:#235B44;
+}
+
+h3 {
+    font-family: helvetica, sans-serif;
+    font-weight: 400;
+    font-style:normal;
+    font-size:16pt;
+    margin-left:5%;
+    color:#235B44;
+}
+
+h4 {font-family: operetta-18, serif;
+    font-weight: 600;
+    font-style:normal;
+    font-size:13pt;
+    margin-left:5%;
+    color:#235B44;
+}
+
+p {
+    color: #235B44;
+    font-family: helvetica-light, sans-serif;
+    font-weight:100;
+    font-style:normal;
+    font-size:11;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+h5 {
+    color: white;
+    font-family: helvetica-light, sans-serif;
+    font-weight:100;
+    font-style:normal;
+    font-size:8;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+
+/*HOME*/
+
+#section1 {
+    /*background-image: url(images/woodentree.jpg);
+    background-repeat: no-repeat;
+    background-size:100%;*/
+    position: relative;
+    color: #FFF7E8;
+    height: 800px;
+    margin: 0;
+    padding: 0;
+    padding-top: 50px;
+}
+
+
+    #HomeSaying1 {
+        position: absolute;
+        text-align:left;
+        top: 250px;
+        margin-left: 5%;
+        color:#235B44;
+        font-family: operetta-18, serif;
+        font-weight: 900;
+        font-style: normal;
+        font-size: 40px; 
+}
+
+    #HomeSaying2 {
+        position: absolute;
+        text-align: left;
+        top: 300px;
+        margin-left: 5%;
+        color:#235B44;
+        font-family: operetta-18, serif;
+        font-weight: 900;
+        font-style: normal;
+        font-size: 40px;
+}
+    
+    #HomeShopNow {
+        position: absolute;
+        text-align: left;
+        top: 450px;
+        margin-left: 5%;
+}
+
+#CoverImage2{
+        display:none;
+    }
+    
+
+/*ABOUT*/
+
+#section2 {
+    height: 600px;
+    color: #FFFDF9;
+    margin: 0;
+    margin-top: 6%;
+    padding: 0;
+    padding-top: 6%;
+    padding-bottom: 3%;
+}
+
+    #introducing_wood_could {
+    width:30%;
+    float:left;
+    margin-left:3.3%;
+    margin-right:1%;
+    margin-bottom:3%;
+}
+
+    #history {
+    float:left;
+    width:62%;
+    margin-right:3.3%;
+}
+    #timeline {
+    float:right;
+    margin-left:5%;
+    margin-right:5%;
+}
+
+  /*  #we_care_about_you {
+    width:30%;
+    margin-left:3.3%; 
+}
+
+
+/*WHY INDOOR AIR*/
+
+#section3 {
+    background-image:url(images/BackGroundFlow.png);
+    background-repeat:no-repeat;
+    background-color:#FFF2D8;
+    background-size:100%;
+    height: 500px;
+    margin: 0;
+    margin-top: 3%;
+    padding: 0;
+    padding-top: 6%;
+    padding-bottom:3%;
+}
+    #Fact1 {
+    float:left;
+    width:30%;
+    margin-left:3.3%;
+    margin-right:1.5%;
+}
+
+    #Fact2 {
+    float:left;
+    width:30%;
+    margin-right:1.5%;
+}
+
+    #Fact3 {
+    float:left;
+    width:30%;
+    margin-right:3.3%;
+}
+
+    #pollutant_circles {
+    float:left;
+    text-align:center;
+    margin-top:5%;
+}
+
+    #wave {
+    background-color: #FFFDF9;
+}
+
+
+/*FEATURES*/ /*need to add those 5 check marks*/
+
+#section4 {
+    height: 600px;
+    background-color: #FFFDF9;
+    margin: 0;
+    padding: 0;
+    padding-top: 3%;
+    padding-bottom:3%;
+}
+
+    #how_wood_could_works {
+    float:left;
+    width:30%;
+    margin-left:3.3%;
+    margin-bottom:3%;
+}
+
+    #features_photo {
+    margin-left:5%;
+    margin-right:5%;
+}
+
+    #wood_could_features {
+    width:33.3%;
+    margin-left:3.3%;
+    margin-top:-30%;
+}
+
+
+/*USER STORIES*/
+
+#section5 {
+    background-color:#FFF2D8;
+    height: 650px;
+    margin: 0;
+    padding: 0;
+    padding-top: 6%;
+    padding-bottom: 5%;
+}
+
+    #stories_intro {
+    float:left;
+    width:30%;
+    height: 500px;
+    margin-left:3.3%;
+    margin-bottom:3%;
+}
+
+    #writeurexperience{
+    margin-left:4.5%;
+    margin-top:40px;
+}
+ 
+    #icon_sarahandpaul {
+    float:right;
+    margin-left:5%;
+    width: 60%;
+    position:relative;
+    height:220px;
+}
+
+    #text_sarahandpaul {
+    float: right;
+    position:absolute;
+    margin-left: 50%;
+    margin-top: 100px;
+}
+
+    #button_sarahandpaul{
+    float:right;
+    position: absolute;
+    margin-left: 5%;
+    margin-bottom: 5%;
+}
+    #icon_mitchell {
+    position:relative;
+    width:60%;
+    float:right;
+    margin-top: 60px;
+}
+
+    #text_mitchell {
+    float: right;
+    position: absolute;
+    margin-left: 49.2%;
+    margin-top: 420px;
+}
+
+    #button_mitchell {
+    float: right;
+    position: absolute;
+    margin-left: 52%;
+    margin-top: 512px;
+    margin-bottom: 5%;
+}
+
+/*PURCHASE HEADER*/
+    #section55 {
+    background-color:#A69580;
+    position: relative;
+    height: 160px;
+    margin-top:0;
+    padding:0px;
+    padding-top: 3%;
+}
+
+    #shipping {
+    position: absolute;
+    margin-left:31.5%;
+}
+
+#shipping_text {
+    position:absolute;
+    text-align: center;
+    margin-left:25%;
+    padding-top:30px;
+}
+
+    #trial {
+    margin-left:50%;
+    position: absolute;
+}
+
+    #trial_text {
+    position:absolute;
+    text-align: center;
+    margin-left:45%;
+    padding-top:30px;
+}
+
+    #warranty {
+    position:absolute;
+    margin-left:68%;
+}
+
+    #warranty_text {
+    text-align: center;
+    margin-left:35%;
+    padding-top:30px;
+}
+
+    #wave2 {
+    background-color: #FFFDF9;
+    width=100%;
+}
+
+
+/*PURCHASE*/
+
+#section6 {
+    background-color: #FFFDF9;
+    height: 780px;
+    margin: 0;
+    padding: 0;
+    padding-top: 6%;
+    padding-bottom: 5%;
+}
+
+    #purchaseimage {
+    width: 63.1%;
+    float: left;
+    margin-top: 2.5%;
+}
+
+    #Purchase {
+    width: 30%;
+    float: left;
+    margin-left: 3.3%;
+    margin-right: 3.3%;
+    margin-top: 1.2%;
+}
+
+    #addtocart {
+    text-align:center;
+    margin-top: 35%;
+}
+
+    #iconspurchase {
+    text-align:center;
+    margin-top: 22%;  
+}
+
+/*OUR TEAM*/
+
+#section7 {
+    background-color:#FFF2D8;
+    height:400px; 
+    margin: 0;
+    padding: 0;
+    padding-top: 6%;
+    padding-bottom: 5%;;
+}
+
+#Renee_Profile_Photo {
+    width:10%;
+    margin-left:14%;
+    margin-top:3%;
+}
+
+#Renee {
+    float: left;
+    text-align: center;
+    width: 30%;
+    margin-left: 3.5%;
+}
+
+#Polina {
+    float: left;
+    width: 30%;
+    margin-right: 3.5%;
+}
+
+
+/*FOOTER*/
+
+#section8 {
+    background-color:#A69580;
+    height: 190px;
+    margin: 0;
+    padding: 0;
+    /*padding-top: 0.1%;*/
+}
+
+    #wave3 {
+    margin-top: 11%;
+}
+
+    #Questions {
+    float:left;
+    width: 30%;
+    margin-left: 3.3%;
+    margin-top:20px;
+}
+
+    #needsupport {
+    float:left;
+    width: 30%;
+    margin-left: 3.3%;
+    margin-top:20px;
+}
+
+    #contactus {
+    padding-left: 23px;
+}
+
+    #help {
+    padding-left: 23px;
+}
+
+    #findus {
+    float:left;
+    width: 30%;
+    margin-left: 3.3%;
+    margin-top:20px;
+}
+
+    #socialmedia {
+    padding-left: 23px;
+}
+
+/*MOBILE CODE*/
+
+
+/* Smooth Scroll and Hamburger Menu */
+@media screen and (max-width: 640px) {
+  .topnav a:not(:first-child) {display: none;}
+    .topnav a:first-child {
+        float:left;
+        padding-left: 20px;
+    }
+    
+  .topnav a.icon, #nav_bar a.icon {
+    float: right;
+    display: block;
+  }
+    
+  .topnav.responsive {
+      position: relative;
+    }
+    
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding-top: 20px;
+  }
+    
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+    padding-left: 20px;
+  }
+    
+/*Logo*/
+    #logo {
+        margin-left:-2%;
+        margin-right:58%
+    }
+    
+        
+/*Home Page*/
+        
+    #HomeSaying1 {
+    font-size: 25px;
+    }
+    
+    #HomeSaying2{
+    font-size: 25px;
+    }
+    
+    #CoverImage1{
+    display:none;
+    }
+    
+    #CoverImage2 {
+    display:contents;
+    }
+    
+    #section1 {
+        height: 550px;
+    }
+    
+    #HomeShopNow{
+        top:380px;
+        margin-left:3%;
+    }
+    
+    /*About*/
+    #section2{
+        height: 910px;
+    }
+    #introducing_wood_could{
+        width:90%;
+        margin-left:auto;
+        margin-right:auto;
+    }
+    
+    #history{
+        width:90%;
+        margin-right:auto;
+        padding-right:auto;
+    }
+    
+    #timeline{
+        width:90%;
+    }
+    
+    }
+
+    
