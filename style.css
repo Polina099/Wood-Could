@@ -152,7 +152,7 @@ h5 {
     #HomeSaying2 {
         position: absolute;
         text-align: left;
-        top: 300px;
+        top: 310px;
         margin-left: 5%;
         color:#235B44;
         font-family: operetta-18, serif;
@@ -243,9 +243,45 @@ h5 {
     margin-right:3.3%;
 }
 
-    #pollutant_circles {
+    #pet_odor{
     float:left;
-    text-align:center;
+    width:13%;
+    margin-left:3.3%;
+    margin-top:5%;
+}
+
+    #mold{
+    float:left;
+    width:13%;
+    margin-left:3.3%;
+    margin-top:5%;
+}
+
+    #smoke{
+    float:left;
+    width:13%;
+    margin-left:3.3%;
+    margin-top:5%;
+}
+
+    #allergies{
+    float:left;
+    width:13%;
+    margin-left:3.3%;
+    margin-top:5%;
+}
+
+    #asthma{
+    float:left;
+    width:13%;
+    margin-left:3.3%;
+    margin-top:5%;
+}
+
+    #chemicals
+    {float:left;
+    width:13%;
+    margin-left:3.3%;
     margin-top:5%;
 }
 
@@ -254,7 +290,7 @@ h5 {
 }
 
 
-/*FEATURES*/ /*need to add those 5 check marks*/
+/*FEATURES*/
 
 #section4 {
     height: 600px;
@@ -273,14 +309,17 @@ h5 {
 }
 
     #features_photo {
-    margin-left:5%;
-    margin-right:5%;
+    float:left;
+    width:60%;
+    margin-left:0%;
+    margin-right:3.3%;
 }
 
     #wood_could_features {
+    float:left;
     width:33.3%;
     margin-left:3.3%;
-    margin-top:-30%;
+    margin-top:-20%;
 }
 
 
@@ -328,6 +367,7 @@ h5 {
     position: absolute;
     margin-left: 5%;
     margin-bottom: 5%;
+    width:50px;
 }
     #icon_mitchell {
     position:relative;
@@ -349,6 +389,7 @@ h5 {
     margin-left: 52%;
     margin-top: 512px;
     margin-bottom: 5%;
+    width:310px;
 }
 
 /*PURCHASE HEADER*/
@@ -364,9 +405,10 @@ h5 {
     #shipping {
     position: absolute;
     margin-left:31.5%;
+    width:60px;
 }
 
-#shipping_text {
+    #shipping_text {
     position:absolute;
     text-align: center;
     margin-left:25%;
@@ -376,6 +418,8 @@ h5 {
     #trial {
     margin-left:50%;
     position: absolute;
+    margin-top:-7px;
+    width:50px;
 }
 
     #trial_text {
@@ -388,6 +432,8 @@ h5 {
     #warranty {
     position:absolute;
     margin-left:68%;
+    width:50px;
+    margin-top:-5px;
 }
 
     #warranty_text {
@@ -396,10 +442,6 @@ h5 {
     padding-top:30px;
 }
 
-    #wave2 {
-    background-color: #FFFDF9;
-    width=100%;
-}
 
 
 /*PURCHASE*/
@@ -434,7 +476,7 @@ h5 {
 
     #iconspurchase {
     text-align:center;
-    margin-top: 22%;  
+    margin-top: 20%;  
 }
 
 /*OUR TEAM*/
@@ -445,7 +487,7 @@ h5 {
     margin: 0;
     padding: 0;
     padding-top: 6%;
-    padding-bottom: 5%;;
+    padding-bottom: 5%;
 }
 
 #Renee_Profile_Photo {
@@ -475,7 +517,6 @@ h5 {
     height: 190px;
     margin: 0;
     padding: 0;
-    /*padding-top: 0.1%;*/
 }
 
     #wave3 {
@@ -497,11 +538,13 @@ h5 {
 }
 
     #contactus {
-    padding-left: 23px;
+    width:130px;
+    padding-left: 3.3%;
 }
 
     #help {
-    padding-left: 23px;
+    width:130px;
+    padding-left: 4% ;
 }
 
     #findus {
@@ -511,15 +554,49 @@ h5 {
     margin-top:20px;
 }
 
-    #socialmedia {
-    padding-left: 23px;
+    #socialmedia{
+    width:30%;
+    text-align: center;
+    float:left;
+    margin-left:3.3%;
 }
+
+    #twitter {
+    float:left;
+    width:30px;
+    margin-left: 4%
+}
+
+    #instagram {
+    float:left;
+    width:30px;
+    margin-left: 3.3%
+}
+
+    #facebook{
+    float:left;
+    width:30px;
+    margin-left: 3.3%
+}
+
+    #mail1 {
+    float:left;
+    width:30px; 
+    margin-left: 3.3%
+}
+
+    #mail2{
+    float:left;
+    width:30px;
+    margin-left: 3.3%
+}
+
+
 
 /*MOBILE CODE*/
 
-
 /* Smooth Scroll and Hamburger Menu */
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 700px) {
   .topnav a:not(:first-child) {display: none;}
     .topnav a:first-child {
         float:left;
@@ -549,21 +626,46 @@ h5 {
     padding-left: 20px;
   }
     
-/*Logo*/
+    
+/*BODY*/
+    
+p{
+    font-size:18px;
+    line-height: 26px;
+}
+
+h2{
+    font-size:40px;
+}
+    
+ h4{
+     font-size:30px
+    }
+
+    
+/*LOGO*/
     #logo {
-        margin-left:-2%;
-        margin-right:58%
+        margin-left:0%;
+        margin-right:64%
     }
     
         
-/*Home Page*/
+/*HOME PAGE*/
+    
+    #section1:{
+    position:absolute;
+    height: 1000px;
+    }
         
     #HomeSaying1 {
-    font-size: 25px;
+    font-size: 50px;
+    width:60%;
+    top: 40%;
+    line-height: 70px;
     }
     
     #HomeSaying2{
-    font-size: 25px;
+    display:none;
     }
     
     #CoverImage1{
@@ -575,34 +677,439 @@ h5 {
     }
     
     #section1 {
-        height: 550px;
+        height: 650px;
     }
     
     #HomeShopNow{
-        top:380px;
-        margin-left:3%;
+    top:460px;
+    margin-left:3%;
     }
     
-    /*About*/
+    /*ABOUT*/
+    
     #section2{
-        height: 910px;
+    height: 1000px;
+    padding-top:90px;
     }
+    
     #introducing_wood_could{
-        width:90%;
-        margin-left:auto;
-        margin-right:auto;
+    float:none;
+    width:100%;
+    margin-left:auto;
+    margin-right:auto;
     }
     
     #history{
-        width:90%;
-        margin-right:auto;
-        padding-right:auto;
+    float:none;
+    width:100%;
+    margin-right:auto;
+    padding-right:auto;
     }
     
     #timeline{
-        width:90%;
+    display:block;
+    width:90%;
+    margin-left:0px;
+    margin-right:5%; 
     }
     
+    /*WHY INDOOR AIR*/
+    
+    #section3{
+    margin-top:1%;
+    padding-top:17%;
+    height: 1600px;
+    }
+    
+    #Fact1 {
+    float:none;
+    width:100%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+    #Fact2 {
+    float:none;
+    width:100%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+    #Fact3 {
+    float:none;
+    width:100%;
+    margin-left:auto;
+    margin-right:auto;
+}
+    
+    #pet_odor{
+    float:left;
+    width:45%;
+    margin-left:3.3%;
+    margin-right:auto;
+    margin-top:5%;
+}
+
+    #mold{
+    float:right;
+    width:45%;
+    margin-left:auto;
+    margin-right:3.3%;
+    margin-top:5%;
+}
+
+    #smoke{
+    float:left;
+    width:45%;
+    margin-left:3.3%;
+    margin-right:auto;
+    margin-top:5%;
+}
+
+    #allergies{
+    float:right;
+    width:45%;
+    margin-left:auto;
+    margin-right:3.3%;
+    margin-top:5%;
+}
+
+    #asthma{
+    float:left;
+    width:45%;
+    margin-left:3.3%;
+    margin-right:auto;
+    margin-top:5%;
+}
+
+    #chemicals{
+    float:right;
+    width:45%;
+    margin-left:auto;
+    margin-right:3.3%;
+    margin-top:5%;
+}
+    
+/*FEATURES*/
+    
+    #section4{
+    margin-top:1%;
+    padding-top:17%;
+    height: 900px;
+        
+    }
+    
+    #how_wood_could_works {
+    float:none;
+    width:100%;
+    margin-left:auto;
+    margin-bottom:auto;
+}
+    
+    #wood_could_features {
+    width:100%;
+    padding-top:5%;
+    margin-left:auto;
+    margin-top:auto;
+}
+    
+    #features_photo {
+    width:90%;
+    text-align:center;
+    margin-top:5%;
+    margin-left:0%;
+    margin-right:0%;
     }
 
+    /*USER STORIES*/
+    
+    #section5{
+    height:800px;
+    margin-top:1%;
+    padding-top:17%;
+    }
+    
+    #stories_intro{
+    float:none;
+    width:100%;
+    height:250px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom: 0%;
+    padding-bottom:0%;
+    }
+    
+    #writeurexperience{
+    display:none;
+}
+ 
+    #icon_sarahandpaul {
+    float:left;
+    margin-left:3%;
+    margin-right:auto;
+    width: 40%;
+    position:relative;
+    height:220px;
+}
+
+    #text_sarahandpaul {
+    float: left;
+    position:relative;
+    width:50%;
+    margin-left: 0%;
+    margin-top: 0%;
+}
+
+    #button_sarahandpaul{
+    float:left;
+    position: relative;
+    margin-left: 5%;
+    margin-bottom: 5%;
+}
+    #icon_mitchell {
+    float:left;
+    margin-left:3%;
+    margin-right:auto;
+    width: 40%;
+    position:absolute;
+    height:220px;
+    margin-top: 220px;
+}
+
+    #text_mitchell {
+    float: left;
+    position:relative;
+    width:50%;
+    margin-left: 0%;
+    margin-top: 6%;
+}
+
+    #button_mitchell {
+    float:left;
+    position: relative;
+    margin-left: 45%;
+    margin-bottom: 5%;
+    margin-top:0%;
+    margin-right:0%;
+}
+    
+/*PURCHASE HEADER*/
+    
+    #section55 {
+    position: relative;
+    margin-top:0;
+    padding:0px;
+    padding-top: 3%;
+}
+
+    #shipping {
+    float:left;
+    margin-left:16%;
+    width:60px;
+}
+
+    #shipping_text {
+    position:absolute;
+    text-align: center;
+    width:140px;
+    margin-left:10%;
+    padding-top:30px;
+}
+
+    #trial {
+    margin-left:50%;
+    position: absolute;
+    width:45px;
+}
+
+    #trial_text {
+    position:absolute;
+    text-align: center;
+    width: 140px;
+    margin-left:43%;
+    padding-top:30px;
+}
+
+    #warranty {
+    position:absolute;
+    margin-left:80%;
+    width:50px;
+}
+
+    #warranty_text {
+    text-align: center;
+    margin-left:68%;
+    padding-top:30px;
+}
+    
+/*PURCHASE*/
+    
+#section6 {
+    height: 1300px;
+    margin-top:1%;
+    padding-top:17%;
+    }
+
+    #purchaseimage {
+    width: 100%;
+    float: left;
+    margin-top: 2.5%;
+}
+
+    #Purchase {
+    width: 100%;
+    float: left;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1.2%;
+}
+
+    #addtocart {
+    float:left;
+    text-align:center;
+    position:relative;
+    margin-top: 10%;
+    margin-left:auto;
+    margin-right:auto;
+    width: 100%;
+}
+
+    #iconspurchase {
+    float:left;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 5%; 
+}
+   
+
+/*OUR TEAM*/
+
+    #section7 {
+    height:750px; 
+    margin: 0;
+    padding: 0;
+    padding-top: 17%;
+    padding-bottom: 5%;
+    margin-bottom:0%
+}
+
+    #Renee_Profile_Photo {
+    float:left;
+    width:30%;
+    margin-left:3%;
+    margin-top:5%;
+}
+
+    #Renee {
+    float: left;
+    text-align: left;
+    width: 50%;
+    margin-left: 3.5%;
+}
+
+    /*polina's photo*/
+
+    #Polina {
+    float: left;
+    text-align:left;
+    width: 50%;
+    margin-right: 3.5%;
+    margin-left:6%;
+}
+
+/*FOOTER*/
+
+    #section8 {
+    height: 330px;
+    margin-top:-5%;
+}
+    
+    #Questions {
+    float:left;
+    width: 45%;
+    margin-left: 3.3%;
+    margin-top:20px;
+}
+
+    #QuestionsText{
+        display:none;
+    }
+    
+    #needsupport {
+    float:right;
+    text-align: right;
+    width: 40%;
+    margin-left: 3.3%;
+    margin-right:3.3%;
+    margin-top:20px;
+}
+    
+    #needsupporttext{
+        display:none;
+    }
+
+    #contactus {
+    width:200px;
+    padding-left: 3.3%;
+}
+
+    #help {
+    float:right;
+    text-align:right;
+    width:200px;
+    padding-right:3.3%;
+}
+
+    #findus {
+    display:none;
+    
+}
+    #findustext{
+    display:none;
+    }
+
+    #socialmedia{
+    width:100%;
+    text-align: center;
+    float:left;
+    margin-top:10%;
+        
+    }
+    #twitter {
+    float:center;
+    text-align: center;
+    width:40px;
+    margin-left:28%;
+}
+
+    #instagram {
+    float:left;
+    width:40px;
+    margin-left: 3.3%;
+}
+
+    #facebook{
+    float:left;
+    width:40px;
+    margin-left: 3.3%;
+}
+
+    #mail1 {
+    float:left;
+    width:40px; 
+    margin-left: 3.3%;
+}
+
+    #mail2{
+    float:left;
+    width:40px;
+    margin-left: 3.3%;
+}
+
+
+}
+
+
+
+        
     
