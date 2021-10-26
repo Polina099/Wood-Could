@@ -182,7 +182,6 @@ h5 {
     margin-top: 6%;
     padding: 0;
     padding-top: 6%;
-    padding-bottom: 3%;
 }
 
     #introducing_wood_could {
@@ -199,7 +198,7 @@ h5 {
     margin-right:3.3%;
 }
     #timeline {
-    float:right;
+    float:left;
     margin-left:5%;
     margin-right:5%;
 }
@@ -219,11 +218,12 @@ h5 {
     background-size:100%;
     height: 500px;
     margin: 0;
-    margin-top: 3%;
+    /*margin-top: 3%;*/
     padding: 0;
     padding-top: 6%;
     padding-bottom:3%;
 }
+
     #Fact1 {
     float:left;
     width:30%;
@@ -343,7 +343,7 @@ h5 {
 }
 
     #writeurexperience{
-    margin-left:4.5%;
+    margin-left:4%;
     margin-top:40px;
 }
  
@@ -360,6 +360,7 @@ h5 {
     position:absolute;
     margin-left: 50%;
     margin-top: 100px;
+    width: 35%;
 }
 
     #button_sarahandpaul{
@@ -381,6 +382,7 @@ h5 {
     position: absolute;
     margin-left: 49.2%;
     margin-top: 420px;
+    width: 35%;
 }
 
     #button_mitchell {
@@ -395,51 +397,52 @@ h5 {
 /*PURCHASE HEADER*/
     #section55 {
     background-color:#A69580;
+    height: 100px;
     position: relative;
-    height: 160px;
-    margin-top:0;
-    padding:0px;
-    padding-top: 3%;
+    padding:0;
+    margin:0;
+    padding-top: 25px;
+    padding-bottom: 15px;
 }
 
     #shipping {
     position: absolute;
-    margin-left:31.5%;
+    margin-left: 32%;
     width:60px;
 }
 
     #shipping_text {
     position:absolute;
     text-align: center;
-    margin-left:25%;
-    padding-top:30px;
+    margin-left:27%;
+    padding-top:32px;
 }
 
     #trial {
     margin-left:50%;
     position: absolute;
-    margin-top:-7px;
+    margin-top: -4px;
     width:50px;
 }
 
     #trial_text {
     position:absolute;
     text-align: center;
-    margin-left:45%;
-    padding-top:30px;
+    margin-left:46%;
+    padding-top:32px;
 }
 
     #warranty {
     position:absolute;
     margin-left:68%;
     width:50px;
-    margin-top:-5px;
+    margin-top:-3px;
 }
 
     #warranty_text {
     text-align: center;
     margin-left:35%;
-    padding-top:30px;
+    padding-top:32px;
 }
 
 
@@ -483,7 +486,7 @@ h5 {
 
 #section7 {
     background-color:#FFF2D8;
-    height:400px; 
+    height:330px; 
     margin: 0;
     padding: 0;
     padding-top: 6%;
@@ -492,13 +495,13 @@ h5 {
 
 #Renee_Profile_Photo {
     width:10%;
-    margin-left:14%;
+    margin-left:5%;
     margin-top:3%;
 }
 
 #Renee {
     float: left;
-    text-align: center;
+    text-align: left;
     width: 30%;
     margin-left: 3.5%;
 }
@@ -514,7 +517,7 @@ h5 {
 
 #section8 {
     background-color:#A69580;
-    height: 190px;
+    height: 240px;
     margin: 0;
     padding: 0;
 }
@@ -527,14 +530,14 @@ h5 {
     float:left;
     width: 30%;
     margin-left: 3.3%;
-    margin-top:20px;
+    margin-top:70px;
 }
 
     #needsupport {
     float:left;
     width: 30%;
     margin-left: 3.3%;
-    margin-top:20px;
+    margin-top:70px;
 }
 
     #contactus {
@@ -551,7 +554,7 @@ h5 {
     float:left;
     width: 30%;
     margin-left: 3.3%;
-    margin-top:20px;
+    margin-top:70px;
 }
 
     #socialmedia{
@@ -564,31 +567,31 @@ h5 {
     #twitter {
     float:left;
     width:30px;
-    margin-left: 4%
+    margin-left: 4%;
 }
 
     #instagram {
     float:left;
     width:30px;
-    margin-left: 3.3%
+    margin-left: 3.3%;
 }
 
     #facebook{
     float:left;
     width:30px;
-    margin-left: 3.3%
+    margin-left: 3.3%;
 }
 
     #mail1 {
     float:left;
     width:30px; 
-    margin-left: 3.3%
+    margin-left: 3.3%;
 }
 
     #mail2{
     float:left;
     width:30px;
-    margin-left: 3.3%
+    margin-left: 3.3%;
 }
 
 
@@ -1005,15 +1008,16 @@ h2{
     text-align: left;
     width: 50%;
     margin-left: 3.5%;
+    margin-right: 3.5%;
 }
 
     /*polina's photo*/
 
     #Polina {
-    float: left;
+    float: right;
     text-align:left;
     width: 50%;
-    margin-right: 3.5%;
+    margin-right: 5%;
     margin-left:6%;
 }
 
@@ -1108,8 +1112,3 @@ h2{
 
 
 }
-
-
-
-        
-    
