@@ -28,7 +28,7 @@ body, div {
     font-weight:400;
     text-decoration: none;
     color: white;
-    font-size: 17px;
+    font-size: 19px;
     padding-top: 25px;
     padding-bottom: 11px;
     padding-right: 25px;
@@ -57,6 +57,7 @@ body, div {
     position: relative;
     margin-left:3%;
     margin-top:-10px;
+    width:0pt;
 }
 
 
@@ -71,12 +72,12 @@ body, div {
 
 h2 {
     margin: 0;
-    margin-left:5%;
+    margin-left:4.5%;
     padding: 0;
     font-family: operetta-18, serif;
     font-weight: 600;
     font-style:normal;
-    font-size:25pt;
+    font-size:40pt;
     color:#235B44;
 }
 
@@ -84,7 +85,7 @@ h3 {
     font-family: helvetica, sans-serif;
     font-weight: 400;
     font-style:normal;
-    font-size:16pt;
+    font-size:25pt;
     margin-left:5%;
     color:#235B44;
 }
@@ -102,11 +103,12 @@ p {
     font-family: helvetica-light, sans-serif;
     font-weight:100;
     font-style:normal;
-    font-size:11;
+    font-size:14pt;
     width: 90%;
     margin-left: auto;
     margin-right: auto;
     text-align: left;
+    line-height: 20pt;
 }
 
 h5 {
@@ -130,7 +132,7 @@ h5 {
     background-size:100%;*/
     position: relative;
     color: #FFF7E8;
-    height: 800px;
+    height: 950px;
     margin: 0;
     padding: 0;
     padding-top: 50px;
@@ -140,31 +142,31 @@ h5 {
     #HomeSaying1 {
         position: absolute;
         text-align:left;
-        top: 250px;
+        top: 350px;
         margin-left: 5%;
         color:#235B44;
         font-family: operetta-18, serif;
         font-weight: 900;
         font-style: normal;
-        font-size: 40px; 
+        font-size: 60px; 
 }
 
     #HomeSaying2 {
         position: absolute;
         text-align: left;
-        top: 310px;
+        top: 430px;
         margin-left: 5%;
         color:#235B44;
         font-family: operetta-18, serif;
         font-weight: 900;
         font-style: normal;
-        font-size: 40px;
+        font-size: 60px;
 }
     
     #HomeShopNow {
         position: absolute;
         text-align: left;
-        top: 450px;
+        top: 650px;
         margin-left: 5%;
 }
 
@@ -176,7 +178,7 @@ h5 {
 /*ABOUT*/
 
 #section2 {
-    height: 600px;
+    height: 800px;
     color: #FFFDF9;
     margin: 0;
     margin-top: 6%;
@@ -201,6 +203,7 @@ h5 {
     float:left;
     margin-left:5%;
     margin-right:5%;
+    width:70%;
 }
 
   /*  #we_care_about_you {
@@ -216,7 +219,7 @@ h5 {
     background-repeat:no-repeat;
     background-color:#FFF2D8;
     background-size:100%;
-    height: 500px;
+    height: 750px;
     margin: 0;
     /*margin-top: 3%;*/
     padding: 0;
@@ -229,6 +232,7 @@ h5 {
     width:30%;
     margin-left:3.3%;
     margin-right:1.5%;
+    margin-bottom:3%;
 }
 
     #Fact2 {
@@ -241,6 +245,7 @@ h5 {
     float:left;
     width:30%;
     margin-right:3.3%;
+    margin-bottom:2%;
 }
 
     #pet_odor{
@@ -293,11 +298,11 @@ h5 {
 /*FEATURES*/
 
 #section4 {
-    height: 600px;
+    height: 800px;
     background-color: #FFFDF9;
     margin: 0;
     padding: 0;
-    padding-top: 3%;
+    padding-top: 6%;
     padding-bottom:3%;
 }
 
@@ -327,7 +332,7 @@ h5 {
 
 #section5 {
     background-color:#FFF2D8;
-    height: 650px;
+    height: 700px;
     margin: 0;
     padding: 0;
     padding-top: 6%;
@@ -397,17 +402,17 @@ h5 {
 /*PURCHASE HEADER*/
     #section55 {
     background-color:#A69580;
-    height: 100px;
+    height: 120px;
     position: relative;
     padding:0;
     margin:0;
-    padding-top: 25px;
+    padding-top: 45px;
     padding-bottom: 15px;
 }
 
     #shipping {
     position: absolute;
-    margin-left: 32%;
+    margin-left: 30.5%;
     width:60px;
 }
 
@@ -416,10 +421,11 @@ h5 {
     text-align: center;
     margin-left:27%;
     padding-top:32px;
+    line-height: 25px;
 }
 
     #trial {
-    margin-left:50%;
+    margin-left:48.95%;
     position: absolute;
     margin-top: -4px;
     width:50px;
@@ -430,11 +436,12 @@ h5 {
     text-align: center;
     margin-left:46%;
     padding-top:32px;
+    line-height: 25px;
 }
 
     #warranty {
     position:absolute;
-    margin-left:68%;
+    margin-left:68.25%;
     width:50px;
     margin-top:-3px;
 }
@@ -443,6 +450,7 @@ h5 {
     text-align: center;
     margin-left:35%;
     padding-top:32px;
+    line-height: 25px;
 }
 
 
@@ -451,7 +459,7 @@ h5 {
 
 #section6 {
     background-color: #FFFDF9;
-    height: 780px;
+    height: 1100px;
     margin: 0;
     padding: 0;
     padding-top: 6%;
@@ -474,7 +482,7 @@ h5 {
 
     #addtocart {
     text-align:center;
-    margin-top: 35%;
+    margin-top: 30%;
 }
 
     #iconspurchase {
@@ -486,7 +494,7 @@ h5 {
 
 #section7 {
     background-color:#FFF2D8;
-    height:330px; 
+    height:530px; 
     margin: 0;
     padding: 0;
     padding-top: 6%;
@@ -517,13 +525,14 @@ h5 {
 
 #section8 {
     background-color:#A69580;
-    height: 240px;
+    height: 260px;
     margin: 0;
     padding: 0;
+    padding-top:50px;
 }
 
     #wave3 {
-    margin-top: 11%;
+    margin-top: 14%;
 }
 
     #Questions {
@@ -640,30 +649,34 @@ p{
 h2{
     font-size:40px;
 }
+
+h3{
+    font-size:25px;   
+}
     
- h4{
+h4{
      font-size:30px
-    }
+}
 
     
 /*LOGO*/
     #logo {
         margin-left:0%;
-        margin-right:64%
+        margin-right:86%
     }
     
         
 /*HOME PAGE*/
     
-    #section1:{
-    position:absolute;
-    height: 1000px;
+    #section1 {
+        height: 550px;
+        width:133%;
     }
         
     #HomeSaying1 {
     font-size: 50px;
     width:60%;
-    top: 40%;
+    top: 28%;
     line-height: 70px;
     }
     
@@ -679,20 +692,18 @@ h2{
     display:contents;
     }
     
-    #section1 {
-        height: 650px;
-    }
-    
     #HomeShopNow{
-    top:460px;
+    top:420px;
     margin-left:3%;
     }
     
     /*ABOUT*/
     
     #section2{
-    height: 1000px;
+    height: 1100px;
     padding-top:90px;
+    margin-top:0%;
+    width:133%;
     }
     
     #introducing_wood_could{
@@ -700,6 +711,7 @@ h2{
     width:100%;
     margin-left:auto;
     margin-right:auto;
+    padding-bottom: 3%;
     }
     
     #history{
@@ -711,7 +723,7 @@ h2{
     
     #timeline{
     display:block;
-    width:90%;
+    width:100%;
     margin-left:0px;
     margin-right:5%; 
     }
@@ -719,9 +731,10 @@ h2{
     /*WHY INDOOR AIR*/
     
     #section3{
-    margin-top:1%;
-    padding-top:17%;
-    height: 1600px;
+    margin-top:0%;
+    padding-top:90px;
+    height: 1650px;
+    width:133%;
     }
     
     #Fact1 {
@@ -729,6 +742,8 @@ h2{
     width:100%;
     margin-left:auto;
     margin-right:auto;
+    margin-bottom:3%;
+    margin-top:3%;
 }
 
     #Fact2 {
@@ -736,6 +751,7 @@ h2{
     width:100%;
     margin-left:auto;
     margin-right:auto;
+    margin-bottom:3%;
 }
 
     #Fact3 {
@@ -793,12 +809,17 @@ h2{
     margin-top:5%;
 }
     
+    #wave{
+        width:133%
+    }
+    
 /*FEATURES*/
     
     #section4{
-    margin-top:1%;
-    padding-top:17%;
-    height: 900px;
+    margin-top:0%;
+    padding-top:90px;
+    height: 950px;
+    width:133%;
         
     }
     
@@ -817,10 +838,10 @@ h2{
 }
     
     #features_photo {
-    width:90%;
+    width:98%;
     text-align:center;
     margin-top:5%;
-    margin-left:0%;
+    margin-left:-3%;
     margin-right:0%;
     }
 
@@ -829,7 +850,8 @@ h2{
     #section5{
     height:800px;
     margin-top:1%;
-    padding-top:17%;
+    padding-top:90px;
+    width:133%;
     }
     
     #stories_intro{
@@ -838,7 +860,7 @@ h2{
     height:250px;
     margin-left:auto;
     margin-right:auto;
-    margin-bottom: 0%;
+    margin-bottom: 4%;
     padding-bottom:0%;
     }
     
@@ -859,15 +881,16 @@ h2{
     float: left;
     position:relative;
     width:50%;
-    margin-left: 0%;
+    margin-left: 7%;
     margin-top: 0%;
 }
 
     #button_sarahandpaul{
-    float:left;
+    display:none;
+    /*float:left;
     position: relative;
     margin-left: 5%;
-    margin-bottom: 5%;
+    margin-bottom: 5%;*/
 }
     #icon_mitchell {
     float:left;
@@ -876,24 +899,25 @@ h2{
     width: 40%;
     position:absolute;
     height:220px;
-    margin-top: 220px;
+    margin-top: 190px;
 }
 
     #text_mitchell {
     float: left;
     position:relative;
     width:50%;
-    margin-left: 0%;
+    margin-left: 7%;
     margin-top: 6%;
 }
 
     #button_mitchell {
-    float:left;
+    display:none;
+    /*float:left;
     position: relative;
     margin-left: 45%;
     margin-bottom: 5%;
     margin-top:0%;
-    margin-right:0%;
+    margin-right:0%;*/
 }
     
 /*PURCHASE HEADER*/
@@ -902,55 +926,63 @@ h2{
     position: relative;
     margin-top:0;
     padding:0px;
-    padding-top: 3%;
+    padding-top:0%;
+    height:180px;
+    width:133%;
 }
 
     #shipping {
     float:left;
-    margin-left:16%;
-    width:60px;
+    margin-left:9%;
+    width:70px;
+    margin-top:13px;
 }
 
     #shipping_text {
     position:absolute;
     text-align: center;
     width:140px;
-    margin-left:10%;
+    margin-left:0%;
     padding-top:30px;
+    line-height: 30px
 }
 
     #trial {
-    margin-left:50%;
+    margin-left:46%;
     position: absolute;
-    width:45px;
+    width:55px;
+    margin-top:13px;
 }
 
     #trial_text {
     position:absolute;
     text-align: center;
     width: 140px;
-    margin-left:43%;
+    margin-left:35%;
     padding-top:30px;
+    line-height: 30px;
 }
 
     #warranty {
     position:absolute;
     margin-left:80%;
-    width:50px;
+    width:60px;
+    margin-top:13px;
 }
 
     #warranty_text {
     text-align: center;
     margin-left:68%;
     padding-top:30px;
+    line-height:30px;
 }
     
 /*PURCHASE*/
     
 #section6 {
-    height: 1300px;
-    margin-top:1%;
-    padding-top:17%;
+    height: 1200px;
+    padding-top:90px;
+    width:133%;
     }
 
     #purchaseimage {
@@ -991,16 +1023,17 @@ h2{
     height:750px; 
     margin: 0;
     padding: 0;
-    padding-top: 17%;
+    padding-top: 90px;
     padding-bottom: 5%;
-    margin-bottom:0%
+    margin-bottom:0%;
+    width:133%;
 }
 
     #Renee_Profile_Photo {
     float:left;
-    width:30%;
+    width:40%;
     margin-left:3%;
-    margin-top:5%;
+    margin-top:12%;
 }
 
     #Renee {
@@ -1022,10 +1055,16 @@ h2{
 }
 
 /*FOOTER*/
+    
+    #wave3{
+        margin-top:678px;
+        width:100%
+    }
 
     #section8 {
     height: 330px;
     margin-top:-5%;
+    width:133%
 }
     
     #Questions {
@@ -1042,7 +1081,7 @@ h2{
     #needsupport {
     float:right;
     text-align: right;
-    width: 40%;
+    width: 45%;
     margin-left: 3.3%;
     margin-right:3.3%;
     margin-top:20px;
@@ -1073,7 +1112,7 @@ h2{
     }
 
     #socialmedia{
-    width:100%;
+    width:95%;
     text-align: center;
     float:left;
     margin-top:10%;
@@ -1083,7 +1122,7 @@ h2{
     float:center;
     text-align: center;
     width:40px;
-    margin-left:28%;
+    margin-left:22%;
 }
 
     #instagram {
