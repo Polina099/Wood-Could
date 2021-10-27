@@ -85,7 +85,7 @@ h3 {
     font-family: helvetica, sans-serif;
     font-weight: 400;
     font-style:normal;
-    font-size:25pt;
+    font-size:21pt;
     margin-left:5%;
     color:#235B44;
 }
@@ -518,6 +518,7 @@ h5 {
     float: left;
     width: 30%;
     margin-right: 3.5%;
+    margin-left: 3.5%;
 }
 
 
@@ -532,7 +533,7 @@ h5 {
 }
 
     #wave3 {
-    margin-top: 14%;
+    margin-top: 310px;
 }
 
     #Questions {
