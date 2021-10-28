@@ -1123,16 +1123,26 @@ h4{
         display:none;
     }
 
-    #contactus {
-    width:200px;
-    padding-left: 3.3%;
+    #button_contactus .button {
+    margin-left:26px;
+    border-radius: 8px;
+    border:none;
+    background:white;
+    padding: 10px 20px;
+    color: #A69580;
+    text-align: center;
+    text-decoration: none;
 }
 
-    #help {
-    float:right;
-    text-align:right;
-    width:200px;
-    padding-right:3.3%;
+    #button_helpplease .button {
+    margin-left:26px;
+    border-radius: 8px;
+    border:none;
+    background:white;
+    padding: 10px 20px;
+    color: #A69580;
+    text-align: center;
+    text-decoration: none;
 }
 
     #findus {
