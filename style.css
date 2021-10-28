@@ -1087,17 +1087,16 @@ h4{
 }
 
 /*FOOTER*/
-    
-    #wave3{
-    margin-top:678px;
-    width:100%
-    }
-
     #section8 {
     height: 330px;
     margin-top:-5%;
     width:133%
 }
+    
+    #wave3{
+    margin-top:678px;
+    width:100%
+    }
     
     #Questions {
     float:left;
