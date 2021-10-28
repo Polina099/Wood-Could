@@ -402,14 +402,14 @@ h5 {
     #text_mitchell {
     float: right;
     position: absolute;
-    margin-left: 49.2%;
+    margin-left: 50%;
     margin-top: 420px;
     width: 35%;
 }
 
     #button_mitchell .button {
     position: absolute;
-    margin-left: 17.7%;
+    margin-left: 18.2%;
     margin-top: 540px;
     border-radius: 8px;
     border: 2px solid #235B44;
