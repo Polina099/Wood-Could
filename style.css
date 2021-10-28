@@ -167,14 +167,15 @@ h5 {
         position: absolute;
         top: 580px;
         margin-left: 5%;
-        border-radius: 8px;
+        border-radius: 38px;
         border:2px solid #235B44;
         color: #235B44;
         background:none;
-        padding: 10px 20px;
+        padding: 15px 30px;
         text-align: center;
         text-decoration: none;
         cursor: pointer;
+        font-size:18pt;
 }
 
 #CoverImage2{
@@ -222,8 +223,6 @@ h5 {
 /*WHY INDOOR AIR*/
 
 #section3 {
-    background-image:url(images/BackGroundFlow.png);
-    background-repeat:no-repeat;
     background-color:#FFF2D8;
     background-size:100%;
     height: 750px;
@@ -340,7 +339,7 @@ h5 {
 #section5 {
     background-color:#FFF2D8;
     position:relative;
-    height: 800px;
+    height: 900px;
     margin: 0;
     padding: 0;
     padding-top: 6%;
@@ -382,7 +381,7 @@ h5 {
     position: absolute;
     margin-left: 18.5%;
     margin-top: 215px;
-    border-radius: 8px;
+    border-radius: 28px;
     border:2px solid #235B44;
     color: #235B44;
     background:none;
@@ -390,6 +389,7 @@ h5 {
     text-align: center;
     text-decoration: none;
     cursor: pointer;
+    font-size:12pt;
 }
 
     #icon_mitchell {
@@ -410,8 +410,8 @@ h5 {
     #button_mitchell .button {
     position: absolute;
     margin-left: 18.2%;
-    margin-top: 540px;
-    border-radius: 8px;
+    margin-top: 570px;
+    border-radius: 28px;
     border: 2px solid #235B44;
     color: #235B44;
     background:none;
@@ -419,6 +419,20 @@ h5 {
     text-align: center;
     text-decoration: none;
     cursor: pointer;
+    font-size:12pt;
+}
+
+#button_submitexperience .button {
+    margin-left:350px;
+    margin-top:10px;
+    border-radius: 38px;
+    border:none;
+    background:#235B44;
+    padding: 10px 20px;
+    color: #FFF2D8;
+    text-align: center;
+    text-decoration: none;
+    font-size:12pt;
 }
 
 /*PURCHASE HEADER*/
@@ -504,16 +518,17 @@ h5 {
 
     #button_purchase .button {
     position: absolute;
-    margin-left: 12.5%;
+    margin-left: 10.5%;
     margin-top: 50px;
-    border-radius: 8px;
+    border-radius: 38px;
     border:none;
     background:#235B44;
-    padding: 10px 20px;
+    padding: 15px 30px;
     color: white;
     text-align: center;
     text-decoration: none;
     cursor: pointer;
+    font-size:15pt;
 }
 
     #iconspurchase {
@@ -581,9 +596,31 @@ h5 {
     margin-top:70px;
 }
 
+    #button_helpplease .button {
+    margin-left:26px;
+    border-radius: 38px;
+    border:none;
+    background:white;
+    padding: 10px 20px;
+    color: #A69580;
+    text-align: center;
+    text-decoration: none;
+}
+
     #contactus {
     width:130px;
     padding-left: 3.3%;
+}
+
+#button_contactus .button {
+    margin-left:26px;
+    border-radius: 38px;
+    border:none;
+    background:white;
+    padding: 10px 20px;
+    color: #A69580;
+    text-align: center;
+    text-decoration: none;
 }
 
     #help {
@@ -687,7 +724,7 @@ h3{
 }
     
 h4{
-     font-size:30px
+     font-size:20px
 }
 
     
@@ -708,7 +745,7 @@ h4{
     #HomeSaying1 {
     font-size: 50px;
     width:60%;
-    top: 28%;
+    top: 31%;
     line-height: 70px;
     }
     
@@ -724,10 +761,15 @@ h4{
     display:contents;
     }
     
-    #HomeShopNow{
-    top:420px;
-    margin-left:3%;
+    #button_shopnow .button {
+        position: absolute;
+        top: 410px;
+        margin-left: 5%;
+        border-radius: 38px;
+        padding: 10px 30px;
+        font-size:14pt;
     }
+    
     
     /*ABOUT*/
     
@@ -952,6 +994,7 @@ h4{
     margin-right:0%;*/
 }
     
+    
 /*PURCHASE HEADER*/
     
     #section55 {
@@ -967,7 +1010,7 @@ h4{
     float:left;
     margin-left:9%;
     width:70px;
-    margin-top:13px;
+    margin-top:40px;
 }
 
     #shipping_text {
@@ -975,7 +1018,7 @@ h4{
     text-align: center;
     width:140px;
     margin-left:0%;
-    padding-top:30px;
+    padding-top:70px;
     line-height: 30px
 }
 
@@ -983,7 +1026,7 @@ h4{
     margin-left:46%;
     position: absolute;
     width:55px;
-    margin-top:13px;
+    margin-top:35px;
 }
 
     #trial_text {
@@ -991,7 +1034,7 @@ h4{
     text-align: center;
     width: 140px;
     margin-left:35%;
-    padding-top:30px;
+    padding-top:70px;
     line-height: 30px;
 }
 
@@ -999,13 +1042,13 @@ h4{
     position:absolute;
     margin-left:80%;
     width:60px;
-    margin-top:13px;
+    margin-top:35px;
 }
 
     #warranty_text {
     text-align: center;
     margin-left:68%;
-    padding-top:30px;
+    padding-top:70px;
     line-height:30px;
 }
     
@@ -1031,21 +1074,26 @@ h4{
     margin-top: 1.2%;
 }
 
-    #addtocart {
-    float:left;
-    text-align:center;
-    position:relative;
-    margin-top: 10%;
-    margin-left:auto;
-    margin-right:auto;
-    width: 100%;
+    
+     #button_purchase .button {
+    position: absolute;
+    margin-left: 45%;
+    margin-top: 50px;
+    border-radius: 38px;
+    border:none;
+    background:#235B44;
+    padding: 15px 30px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    font-size:15pt;
 }
-
     #iconspurchase {
     float:left;
     margin-left:auto;
     margin-right:auto;
-    margin-top: 5%; 
+    margin-top: 25%; 
 }
    
 
@@ -1088,7 +1136,7 @@ h4{
 
 /*FOOTER*/
     #section8 {
-    height: 330px;
+    height: 300px;
     margin-top:-5%;
     width:133%
 }
@@ -1100,20 +1148,20 @@ h4{
     
     #Questions {
     float:left;
-    width: 30%;
+    width: 42%;
     margin-left: 3.3%;
-    margin-top:70px;
+    margin-top:0px;
 }
 
     #needsupport {
-    float:left;
-    width: 30%;
+    float:right;
+    width: 50%;
     margin-left: 3.3%;
-    margin-top:70px;
+    margin-top:0px;
 }
 
     #button_contactus .button {
-    margin-left:26px;
+    margin-left:6px;
     border-radius: 8px;
     border:none;
     background:white;
@@ -1124,7 +1172,7 @@ h4{
 }
 
     #button_helpplease .button {
-    margin-left:26px;
+    margin-left:6px;
     border-radius: 8px;
     border:none;
     background:white;
