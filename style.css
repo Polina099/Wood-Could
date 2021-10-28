@@ -502,14 +502,23 @@ h5 {
     margin-top: 1.2%;
 }
 
-    #addtocart {
-    text-align:center;
-    margin-top: 30%;
+    #button_purchase .button {
+    position: absolute;
+    margin-left: 12.5%;
+    margin-top: 50px;
+    border-radius: 8px;
+    border:none;
+    background:#235B44;
+    padding: 10px 20px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
 }
 
     #iconspurchase {
     text-align:center;
-    margin-top: 20%;  
+    margin-top: 150px;  
 }
 
 /*OUR TEAM*/
