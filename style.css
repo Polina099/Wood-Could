@@ -163,11 +163,18 @@ h5 {
         font-size: 60px;
 }
     
-    #HomeShopNow {
+    #button_shopnow .button {
         position: absolute;
-        text-align: left;
-        top: 650px;
+        top: 580px;
         margin-left: 5%;
+        border-radius: 8px;
+        border:2px solid #235B44;
+        color: #235B44;
+        background:none;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        cursor: pointer;
 }
 
 #CoverImage2{
@@ -368,13 +375,20 @@ h5 {
     width: 35%;
 }
 
-    #button_sarahandpaul{
-    float:right;
+    #button_sarahandpaul .button {
     position: absolute;
-    margin-left: 5%;
-    margin-bottom: 5%;
-    width:50px;
+    margin-left: 18.5%;
+    margin-top: 215px;
+    border-radius: 8px;
+    border:2px solid #235B44;
+    color: #235B44;
+    background:none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
 }
+
     #icon_mitchell {
     position:relative;
     width:60%;
@@ -390,13 +404,18 @@ h5 {
     width: 35%;
 }
 
-    #button_mitchell {
-    float: right;
+    #button_mitchell .button {
     position: absolute;
-    margin-left: 52%;
-    margin-top: 512px;
-    margin-bottom: 5%;
-    width:310px;
+    margin-left: 17.7%;
+    margin-top: 540px;
+    border-radius: 8px;
+    border: 2px solid #235B44;
+    color: #235B44;
+    background:none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
 }
 
 /*PURCHASE HEADER*/
