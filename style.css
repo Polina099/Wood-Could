@@ -1101,27 +1101,17 @@ h4{
     
     #Questions {
     float:left;
-    width: 45%;
+    width: 30%;
     margin-left: 3.3%;
-    margin-top:20px;
+    margin-top:70px;
 }
 
-    #QuestionsText{
-    display:none;
-    }
-    
     #needsupport {
-    float:right;
-    text-align: right;
-    width: 45%;
+    float:left;
+    width: 30%;
     margin-left: 3.3%;
-    margin-right:3.3%;
-    margin-top:20px;
+    margin-top:70px;
 }
-    
-    #needsupporttext{
-    display:none;
-    }
 
     #button_contactus .button {
     margin-left:26px;
