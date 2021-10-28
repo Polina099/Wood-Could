@@ -339,7 +339,8 @@ h5 {
 
 #section5 {
     background-color:#FFF2D8;
-    height: 700px;
+    position:relative;
+    height: 1000px;
     margin: 0;
     padding: 0;
     padding-top: 6%;
@@ -348,15 +349,17 @@ h5 {
 
     #stories_intro {
     float:left;
+    position:relative;
     width:30%;
-    height: 500px;
+    height: 830px;
     margin-left:3.3%;
     margin-bottom:3%;
 }
 
-    #writeurexperience{
-    margin-left:4%;
+    #writeurexperience {
     margin-top:40px;
+    float:left;
+    position:relative;
 }
  
     #icon_sarahandpaul {
