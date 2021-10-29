@@ -178,6 +178,11 @@ h5 {
         font-size:18pt;
 }
 
+    #button_shopnow .button:hover {
+    background-color: #235B44;
+    color: white;
+}
+
 #CoverImage2{
         display:none;
     }
@@ -355,15 +360,30 @@ h5 {
     margin-bottom:3%;
 }
 
-    #writeurexperience {
-    margin-top:40px;
-    float:left;
-    position:relative;
+    #text_name {
+    margin-top:5%;
+}
+
+    #image_experience1 {
+    margin-left:3%;
+}
+
+    #image_experience2 {
+    margin-left:3%;
+}
+
+    #image_experience3 {
+    margin-left:3%;
+}
+
+    #button_submitexperience {
+    margin-top: 1.5%;
 }
  
     #icon_sarahandpaul {
     float:right;
     margin-left:5%;
+    margin-top: 50px;
     width: 60%;
     position:relative;
     height:220px;
@@ -373,14 +393,14 @@ h5 {
     float: right;
     position:absolute;
     margin-left: 50%;
-    margin-top: 100px;
+    margin-top: 140px;
     width: 35%;
 }
 
     #button_sarahandpaul .button {
     position: absolute;
     margin-left: 18.5%;
-    margin-top: 215px;
+    margin-top: 240px;
     border-radius: 28px;
     border:2px solid #235B44;
     color: #235B44;
@@ -394,23 +414,23 @@ h5 {
 
     #icon_mitchell {
     position:relative;
-    width:60%;
+    width:59%;
     float:right;
-    margin-top: 60px;
+    margin-top: 100px;
 }
 
     #text_mitchell {
     float: right;
     position: absolute;
     margin-left: 50%;
-    margin-top: 420px;
+    margin-top: 460px;
     width: 35%;
 }
 
     #button_mitchell .button {
     position: absolute;
     margin-left: 18.2%;
-    margin-top: 570px;
+    margin-top: 580px;
     border-radius: 28px;
     border: 2px solid #235B44;
     color: #235B44;
@@ -422,7 +442,7 @@ h5 {
     font-size:12pt;
 }
 
-#button_submitexperience .button {
+    #button_submitexperience .button {
     margin-left:350px;
     margin-top:10px;
     border-radius: 38px;
@@ -434,6 +454,7 @@ h5 {
     text-decoration: none;
     font-size:12pt;
 }
+
 
 /*PURCHASE HEADER*/
     #section55 {
