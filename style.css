@@ -38,10 +38,7 @@ body, div {
 .topnav {
     overflow: hidden;
 }
-
 .topnav a:hover {
-    /*background-color: #ddd;
-    color: #A69580;*/
     font-family:helvetica, sans-serif;
     color:#184031;
 } 
@@ -50,7 +47,6 @@ body, div {
   display: none;
 }
 /*SMOOTH SCROLL HAMBURGER FINISH*/
-
 
 /*NAVIGATION BAR*/
 
@@ -61,6 +57,7 @@ body, div {
     margin-top:-10px;
     width:0pt;
 }
+
 
 #nav_bar {
     position: fixed;
@@ -91,8 +88,7 @@ h3 {
     color:#235B44;
 }
 
-h4 {
-    font-family: operetta-18, serif;
+h4 {font-family: operetta-18, serif;
     font-weight: 600;
     font-style:normal;
     font-size:13pt;
@@ -129,6 +125,9 @@ h5 {
 /*HOME*/
 
 #section1 {
+    /*background-image: url(images/woodentree.jpg);
+    background-repeat: no-repeat;
+    background-size:100%;*/
     position: relative;
     color: #FFF7E8;
     height: 950px;
@@ -136,6 +135,7 @@ h5 {
     padding: 0;
     padding-top: 50px;
 }
+
 
     #HomeSaying1 {
     position: absolute;
@@ -182,7 +182,7 @@ h5 {
 }
 
 #CoverImage2{
-        display:none;
+    display:none;
 }
     
 
@@ -210,12 +210,11 @@ h5 {
     width:62%;
     margin-right:3.3%;
 }
-
     #timeline {
     float:left;
     margin-left:5%;
     margin-right:5%;
-    width:90%;
+    width:70%;
 }
 
 
@@ -505,7 +504,6 @@ h5 {
 }
 
 
-
 /*PURCHASE*/
 
 #section6 {
@@ -696,32 +694,32 @@ h5 {
 @media screen and (max-width: 700px) {
   .topnav a:not(:first-child) {display: none;}
     .topnav a:first-child {
-        float:left;
-        padding-left: 20px;
-    }
+    float:left;
+    padding-left: 20px;
+}
     
   .topnav a.icon, #nav_bar a.icon {
     float: right;
     display: block;
-  }
+}
     
   .topnav.responsive {
-      position: relative;
-    }
+    position: relative;
+}
     
   .topnav.responsive .icon {
     position: absolute;
     right: 0;
     top: 0;
     padding-top: 20px;
-  }
+}
     
   .topnav.responsive a {
     float: none;
     display: block;
     text-align: left;
     padding-left: 20px;
-  }
+}
     
     
 /*BODY*/
@@ -740,14 +738,14 @@ h3{
 }
     
 h4{
-     font-size:20px
+    font-size:20px
 }
 
     
 /*LOGO*/
     #logo {
-        margin-left:0%;
-        margin-right:86%
+    margin-left:0%;
+    margin-right:86%
 }
     
         
@@ -904,13 +902,14 @@ h4{
     width:133%
 }
     
+    
 /*FEATURES*/
     
     #section4{
     margin-top:0%;
     padding-top:90px;
     height: 950px;
-    width:133%;       
+    width:133%;    
 }
     
     #how_wood_could_works {
@@ -1058,7 +1057,7 @@ h4{
     padding-top:70px;
     line-height:30px;
 }
-   
+    
     
 /*PURCHASE*/
     
@@ -1081,7 +1080,7 @@ h4{
     margin-right: auto;
     margin-top: 1.2%;
 }
-    
+
     #button_purchase .button {
     position: absolute;
     margin-left: 45%;
@@ -1096,7 +1095,6 @@ h4{
     cursor: pointer;
     font-size:15pt;
 }
-    
     #iconspurchase {
     float:left;
     margin-left:auto;
@@ -1142,7 +1140,9 @@ h4{
     margin-left:6%;
 }
 
+    
 /*FOOTER*/
+    
     #section8 {
     height: 300px;
     margin-top:-5%;
@@ -1152,7 +1152,7 @@ h4{
     #wave3{
     margin-top:678px;
     width:100%
-}
+    }
     
     #Questions {
     float:left;
@@ -1196,14 +1196,14 @@ h4{
 }
     #findustext{
     display:none;
-}
+    }
 
     #socialmedia{
     width:95%;
     text-align: center;
     float:left;
     margin-top:10%;
-}
+    }
     
     #twitter {
     float:center;
