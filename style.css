@@ -1139,20 +1139,20 @@ h4{
 }
 
     #Polina_Profile_Photo {
-    float:right;
-    width:40%;
+    float:left;
+    width:100%;
     margin-left:3%;
-    margin-top:12%;
+    margin-top:85%;
 }
-
+    
     #Polina {
-    float: right;
+    float: left;
     text-align:left;
-    width: 50%;
-    margin-right: 5%;
-    margin-left:6%;
+    width: 60%;
+    margin-left: 62%;
+    margin-right: 3.5%;
+    margin-top: 75%;
 }
-
     
 /*FOOTER*/
     
