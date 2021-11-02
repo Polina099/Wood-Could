@@ -561,30 +561,32 @@ h5 {
     padding-bottom: 5%;
 }
 
-#Renee_Profile_Photo {
+    #Renee_Profile_Photo {
     width:10%;
     margin-left:5%;
     margin-top:3%;
 }
 
-#Renee {
+    #Renee {
     float: left;
     text-align: left;
     width: 30%;
     margin-left: 3.5%;
 }
 
-#Polina_Profile_Photo {
-    width:10%;
-    margin-left:5%;
+    #Polina_Profile_Photo {
+    position: absolute;
+    float:right;
+    width:40%;
     margin-top:3%;
+    margin-left:38%;
 }
 
-#Polina {
+    #Polina {
+    position: absolute;
     float: right;
     width: 30%;
-    margin-right: 3.5%;
-    margin-left: 3.5%;
+    margin-left: 36.6%;
 }
 
 
