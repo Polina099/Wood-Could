@@ -965,7 +965,15 @@ h4{
     #text_name {
     display:none;
 }
+    
+    #text_email {
+    display:none;
+}
 
+    #text_write {
+    display:none;
+}
+    
     #image_experience1 {
     display:none;
 }
