@@ -1,4 +1,5 @@
 /*OVERALL SITE*/
+
 body, div {
     margin: 0;
     padding: 0;
@@ -11,7 +12,9 @@ body, div {
     width: 100%;
 }
 
-/*SMOOTH SCROLL HAMBURGER START*/
+
+/*SMOOTH SCROLL HAMBURGER*/
+
 .topnav {
     position: fixed;
     width: 100%;
@@ -46,7 +49,7 @@ body, div {
 #nav_bar .icon {
   display: none;
 }
-/*SMOOTH SCROLL HAMBURGER FINISH*/
+
 
 /*NAVIGATION BAR*/
 
@@ -181,7 +184,7 @@ h5 {
     color: white;
 }
 
-#CoverImage2{
+    #CoverImage2{
     display:none;
 }
     
@@ -454,6 +457,7 @@ h5 {
 
 
 /*PURCHASE HEADER*/
+
     #section55 {
     background-color:#A69580;
     height: 120px;
@@ -638,7 +642,7 @@ h5 {
     padding-left: 3.3%;
 }
 
-#button_contactus .button {
+    #button_contactus .button {
     margin-left:26px;
     border-radius: 38px;
     border:none;
@@ -703,6 +707,7 @@ h5 {
 /*MOBILE CODE*/
 
 /* Smooth Scroll and Hamburger Menu */
+
 @media screen and (max-width: 700px) {
   .topnav a:not(:first-child) {display: none;}
     .topnav a:first-child {
@@ -746,7 +751,8 @@ h2{
 }
 
 h3{
-    font-size:25px;   
+    font-size:25px;
+    margin-right:1%;
 }
     
 h4{
@@ -755,7 +761,7 @@ h4{
 
     
 /*LOGO*/
-    #logo {
+#logo {
     margin-left:0%;
     margin-right:86%
 }
@@ -763,7 +769,7 @@ h4{
         
 /*HOME PAGE*/
     
-    #section1 {
+#section1 {
     height: 550px;
     width:133%;
 }
@@ -797,9 +803,9 @@ h4{
 }
     
     
-    /*ABOUT*/
+/*ABOUT*/
     
-    #section2{
+#section2{
     height: 1250px;
     padding-top:90px;
     margin-top:0%;
@@ -828,9 +834,10 @@ h4{
     display:contents;   
     }
     
-    /*WHY INDOOR AIR*/
     
-    #section3{
+/*WHY INDOOR AIR*/
+    
+#section3{
     margin-top:0%;
     padding-top:90px;
     height: 1650px;
@@ -916,7 +923,7 @@ h4{
     
 /*FEATURES*/
     
-    #section4{
+#section4{
     margin-top:0%;
     padding-top:90px;
     height: 950px;
@@ -946,9 +953,9 @@ h4{
 }
 
     
-    /*USER STORIES*/
+/*USER STORIES*/
     
-    #section5{
+#section5{
     height:800px;
     margin-top:1%;
     padding-top:90px;
@@ -1038,7 +1045,7 @@ h4{
     
 /*PURCHASE HEADER*/
     
-    #section55 {
+#section55 {
     position: relative;
     margin-top:0;
     padding:0px;
@@ -1049,7 +1056,7 @@ h4{
 
     #shipping {
     float:left;
-    margin-left:9%;
+    margin-left:12%;
     width:70px;
     margin-top:40px;
 }
@@ -1058,7 +1065,7 @@ h4{
     position:absolute;
     text-align: center;
     width:140px;
-    margin-left:0%;
+    margin-left:3%;
     padding-top:70px;
     line-height: 30px
 }
@@ -1081,14 +1088,14 @@ h4{
 
     #warranty {
     position:absolute;
-    margin-left:80%;
+    margin-left:78%;
     width:60px;
     margin-top:35px;
 }
 
     #warranty_text {
     text-align: center;
-    margin-left:68%;
+    margin-left:63%;
     padding-top:70px;
     line-height:30px;
 }
@@ -1140,7 +1147,7 @@ h4{
 
 /*OUR TEAM*/
 
-    #section7 {
+#section7 {
     height:750px; 
     margin: 0;
     padding: 0;
@@ -1183,7 +1190,7 @@ h4{
     
 /*FOOTER*/
     
-    #section8 {
+#section8 {
     height: 300px;
     margin-top:-5%;
     width:133%
